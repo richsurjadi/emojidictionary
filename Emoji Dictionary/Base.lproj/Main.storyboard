@@ -7,6 +7,42 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="2qh-EC-dBB">
+            <objects>
+                <viewController id="G3Z-QB-1cW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Hk-fN-fGb"/>
+                        <viewControllerLayoutGuide type="bottom" id="UKc-V3-0So"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nFJ-CT-0kd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="💒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHt-WY-UHn">
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lovely Church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpX-dX-hZ8">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vHt-WY-UHn" firstAttribute="centerX" secondItem="nFJ-CT-0kd" secondAttribute="centerX" id="Eaf-vD-P1t"/>
+                            <constraint firstItem="wpX-dX-hZ8" firstAttribute="top" secondItem="vHt-WY-UHn" secondAttribute="bottom" constant="40" id="sDk-AE-YOn"/>
+                            <constraint firstItem="vHt-WY-UHn" firstAttribute="top" secondItem="0Hk-fN-fGb" secondAttribute="bottom" constant="45" id="tNB-Zo-ora"/>
+                            <constraint firstItem="wpX-dX-hZ8" firstAttribute="centerX" secondItem="nFJ-CT-0kd" secondAttribute="centerX" id="tW2-xD-otr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3uX-sm-iRp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="121.88905547226388"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Emoji_Dictionary" customModuleProvider="target" sceneMemberID="viewController">
