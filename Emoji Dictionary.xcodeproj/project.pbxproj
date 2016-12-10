@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DEA185BC1DFA80B200DEF301 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA185BB1DFA80B200DEF301 /* Emoji.swift */; };
 		DEA881031DF45093008DB522 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA881021DF45093008DB522 /* AppDelegate.swift */; };
 		DEA881051DF45093008DB522 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA881041DF45093008DB522 /* ViewController.swift */; };
 		DEA881081DF45093008DB522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA881061DF45093008DB522 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DEA185BB1DFA80B200DEF301 /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		DEA880FF1DF45093008DB522 /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA881021DF45093008DB522 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEA881041DF45093008DB522 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				DEA881021DF45093008DB522 /* AppDelegate.swift */,
 				DEA881041DF45093008DB522 /* ViewController.swift */,
+				DEA185BB1DFA80B200DEF301 /* Emoji.swift */,
 				DEA881141DF58BCB008DB522 /* DefViewController.swift */,
 				DEA881061DF45093008DB522 /* Main.storyboard */,
 				DEA881091DF45093008DB522 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			files = (
 				DEA881151DF58BCB008DB522 /* DefViewController.swift in Sources */,
 				DEA881051DF45093008DB522 /* ViewController.swift in Sources */,
+				DEA185BC1DFA80B200DEF301 /* Emoji.swift in Sources */,
 				DEA881031DF45093008DB522 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +312,7 @@
 				DEA881131DF45094008DB522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

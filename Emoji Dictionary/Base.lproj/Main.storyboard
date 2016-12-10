@@ -28,10 +28,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qE6-Z9-plL">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BirthYear" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ei3-xJ-udd">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="ei3-xJ-udd" firstAttribute="centerX" secondItem="nFJ-CT-0kd" secondAttribute="centerX" id="64G-Yl-UIC"/>
                             <constraint firstItem="vHt-WY-UHn" firstAttribute="centerX" secondItem="nFJ-CT-0kd" secondAttribute="centerX" id="Eaf-vD-P1t"/>
+                            <constraint firstItem="qE6-Z9-plL" firstAttribute="top" secondItem="wpX-dX-hZ8" secondAttribute="bottom" constant="30" id="b51-fO-uOM"/>
+                            <constraint firstItem="ei3-xJ-udd" firstAttribute="top" secondItem="qE6-Z9-plL" secondAttribute="bottom" constant="30" id="qA9-pK-acJ"/>
+                            <constraint firstItem="qE6-Z9-plL" firstAttribute="centerX" secondItem="nFJ-CT-0kd" secondAttribute="centerX" id="rYk-MG-cCS"/>
                             <constraint firstItem="wpX-dX-hZ8" firstAttribute="top" secondItem="vHt-WY-UHn" secondAttribute="bottom" constant="40" id="sDk-AE-YOn"/>
                             <constraint firstItem="vHt-WY-UHn" firstAttribute="top" secondItem="0Hk-fN-fGb" secondAttribute="bottom" constant="45" id="tNB-Zo-ora"/>
                             <constraint firstItem="wpX-dX-hZ8" firstAttribute="centerX" secondItem="nFJ-CT-0kd" secondAttribute="centerX" id="tW2-xD-otr"/>
@@ -39,6 +53,8 @@
                     </view>
                     <connections>
                         <outlet property="DefLabel" destination="nFJ-CT-0kd" id="vmj-uX-c8o"/>
+                        <outlet property="birthyearLabel" destination="ei3-xJ-udd" id="bK1-DJ-wgn"/>
+                        <outlet property="categoryLabel" destination="qE6-Z9-plL" id="fbc-gN-DFi"/>
                         <outlet property="defLabel" destination="wpX-dX-hZ8" id="jWv-6N-qz6"/>
                         <outlet property="emojiLabel" destination="vHt-WY-UHn" id="BZ7-MY-5G9"/>
                     </connections>
